@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Helpers">
+      <UniqueIdentifier>{73c3b139-9aa5-4a37-9b3b-b9c2eb71c47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Data">
+      <UniqueIdentifier>{a68cd8e1-8d40-4f3a-a551-d034e89c99f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBoxFilters.cpp">
+      <Filter>Исходные файлы\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Convertex.cpp">
+      <Filter>Исходные файлы\Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProcessorForm.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBoxFilters.h">
+      <Filter>Исходные файлы\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Convertex.h">
+      <Filter>Исходные файлы\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomex.h">
+      <Filter>Исходные файлы\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructs.h">
+      <Filter>Исходные файлы\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGridViewExtensions.h">
+      <Filter>Исходные файлы\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcFarm.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mp2-lab4-queue-processor.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\proc_icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
